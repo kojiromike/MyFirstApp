@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="7706" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="1J3-4W-dNd">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Woman Surrealists-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="MyFirstApp" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +16,137 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IoR-9B-rMI">
+                                <rect key="frame" x="308" y="64" width="292" height="268"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Kay Sage" backgroundImage="KaySage1">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTw-zL-LcE">
+                                <rect key="frame" x="0.0" y="64" width="300" height="268"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Remedios Varo" backgroundImage="RemediosVaro1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="d1J-5M-xaM" kind="show" id="U56-gK-Cqu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfK-CC-qjM">
+                                <rect key="frame" x="0.0" y="340" width="300" height="260"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal" title="Leonora Carrington" backgroundImage="LeonoraCarrington1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FF-R9-5Hz">
+                                <rect key="frame" x="308" y="340" width="292" height="260"/>
+                                <state key="normal" title="Frida Kahlo" backgroundImage="FridaKahlo1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Woman Surrealists" id="7QP-Tx-CfK">
+                        <barButtonItem key="backBarButtonItem" title="Surrealists" id="AEN-ik-3BT"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1070" y="542"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="xrH-LB-3Ht">
+            <objects>
+                <viewController id="d1J-5M-xaM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NQH-I8-kwj"/>
+                        <viewControllerLayoutGuide type="bottom" id="Cet-Mg-HeL"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Yon-gy-sGz">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RemediosVaro2" translatesAutoresizingMaskIntoConstraints="NO" id="Bbj-J5-xWP">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bzj-qW-BF0">
+                                <rect key="frame" x="354" y="72" width="230" height="270"/>
+                                <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="2UQ-06-MGn"/>
+                                    <constraint firstAttribute="width" constant="230" id="Vj8-Qa-fLD"/>
+                                </constraints>
+                                <mutableString key="text">(1908-1963) Born in Girona, Spain, Remedios Varo Uranga studies art in Madrid before seeking refuge in Paris during the Spanish Civil War. She married the French surrealist poet Benjamin Péret and joined the art group Logicophobiste.
+
+Before the Nazi occupation of France, she fled again to Mexico, where she met Frida Kahlo and Diego Revera. She remained in Latin America for the rest of her life.
+
+Her art focuses on themes of nature, science, and the mystic connection between them. She was influenced by renaissance art, especially the works of Hieronymus Bosch, and used formal construction and a narrative structure.
+
+Her mature paintings, fraught with arguably feminist meaning, are predominantly from the last few years of her life. The paintings of androgynous characters that share Varo’s facial features, mythical creatures, the misty swirls and eerie distortions of perspective are characteristic of Varo’s unique brand of surrealism.
+
+[El gato helecho (The Fern Cat), 1957]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Bbj-J5-xWP" firstAttribute="leading" secondItem="Yon-gy-sGz" secondAttribute="leading" id="0YN-dY-4y7"/>
+                            <constraint firstItem="Bbj-J5-xWP" firstAttribute="top" secondItem="Yon-gy-sGz" secondAttribute="top" id="23e-Nr-URn"/>
+                            <constraint firstItem="Cet-Mg-HeL" firstAttribute="top" secondItem="Bbj-J5-xWP" secondAttribute="bottom" id="3WI-CE-clQ"/>
+                            <constraint firstItem="Bbj-J5-xWP" firstAttribute="leading" secondItem="Yon-gy-sGz" secondAttribute="leading" id="4Sy-aM-9Hb"/>
+                            <constraint firstAttribute="trailing" secondItem="Bbj-J5-xWP" secondAttribute="trailing" id="7DB-GH-OFJ"/>
+                            <constraint firstItem="Bzj-qW-BF0" firstAttribute="top" secondItem="NQH-I8-kwj" secondAttribute="bottom" constant="8" symbolic="YES" id="GcF-se-wT9"/>
+                            <constraint firstItem="Bbj-J5-xWP" firstAttribute="top" secondItem="Yon-gy-sGz" secondAttribute="top" id="J54-Vm-HFg"/>
+                            <constraint firstAttribute="bottom" secondItem="Bbj-J5-xWP" secondAttribute="bottom" id="ORk-Z3-iCi"/>
+                            <constraint firstItem="Bzj-qW-BF0" firstAttribute="trailing" secondItem="Yon-gy-sGz" secondAttribute="trailingMargin" id="X7L-bw-4vX"/>
+                            <constraint firstAttribute="trailing" secondItem="Bbj-J5-xWP" secondAttribute="trailing" id="aMv-jP-KaF"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="4Sy-aM-9Hb"/>
+                                <exclude reference="7DB-GH-OFJ"/>
+                                <exclude reference="J54-Vm-HFg"/>
+                                <exclude reference="ORk-Z3-iCi"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wHh-Xx-a2Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1767" y="542"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="LuT-jU-qJG">
+            <objects>
+                <navigationController id="1J3-4W-dNd" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Yn8-ZF-NqH">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="7FW-bg-6cx"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gqe-4q-JDu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="396" y="542"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="FridaKahlo1" width="160" height="256"/>
+        <image name="KaySage1" width="160" height="256"/>
+        <image name="LeonoraCarrington1" width="160" height="256"/>
+        <image name="RemediosVaro1" width="160" height="256"/>
+        <image name="RemediosVaro2" width="1152" height="1536"/>
+    </resources>
 </document>
