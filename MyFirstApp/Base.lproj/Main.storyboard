@@ -17,15 +17,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IoR-9B-rMI">
-                                <rect key="frame" x="308" y="64" width="292" height="268"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IoR-9B-rMI">
+                                <rect key="frame" x="300" y="64" width="300" height="268"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Kay Sage" backgroundImage="KaySage1">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTw-zL-LcE">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FF-R9-5Hz">
+                                <rect key="frame" x="300" y="332" width="300" height="268"/>
+                                <state key="normal" title="Frida Kahlo" backgroundImage="FridaKahlo1">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTw-zL-LcE">
                                 <rect key="frame" x="0.0" y="64" width="300" height="268"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Remedios Varo" backgroundImage="RemediosVaro1">
@@ -36,23 +43,37 @@
                                     <segue destination="d1J-5M-xaM" kind="show" id="U56-gK-Cqu"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfK-CC-qjM">
-                                <rect key="frame" x="0.0" y="340" width="300" height="260"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EfK-CC-qjM">
+                                <rect key="frame" x="0.0" y="332" width="300" height="268"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                 <state key="normal" title="Leonora Carrington" backgroundImage="LeonoraCarrington1">
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FF-R9-5Hz">
-                                <rect key="frame" x="308" y="340" width="292" height="260"/>
-                                <state key="normal" title="Frida Kahlo" backgroundImage="FridaKahlo1">
-                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="rTw-zL-LcE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="0BN-Rn-aHM"/>
+                            <constraint firstItem="IoR-9B-rMI" firstAttribute="width" secondItem="rTw-zL-LcE" secondAttribute="width" id="CZ1-9o-Kns"/>
+                            <constraint firstItem="IoR-9B-rMI" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="Ddr-e8-gf8"/>
+                            <constraint firstItem="rTw-zL-LcE" firstAttribute="width" secondItem="IoR-9B-rMI" secondAttribute="width" id="EcS-9o-5dg"/>
+                            <constraint firstItem="IoR-9B-rMI" firstAttribute="height" secondItem="EfK-CC-qjM" secondAttribute="height" id="EoK-TO-fyl"/>
+                            <constraint firstItem="EfK-CC-qjM" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Fff-J5-f5D"/>
+                            <constraint firstAttribute="trailing" secondItem="4FF-R9-5Hz" secondAttribute="trailing" id="K4q-dd-1dT"/>
+                            <constraint firstItem="rTw-zL-LcE" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="NSp-Sw-Z2h"/>
+                            <constraint firstItem="IoR-9B-rMI" firstAttribute="width" secondItem="EfK-CC-qjM" secondAttribute="width" id="T98-AO-I8P"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EfK-CC-qjM" secondAttribute="bottom" id="aE2-qf-FID"/>
+                            <constraint firstItem="4FF-R9-5Hz" firstAttribute="leading" secondItem="EfK-CC-qjM" secondAttribute="trailing" id="aEq-DT-Wxb"/>
+                            <constraint firstAttribute="trailing" secondItem="IoR-9B-rMI" secondAttribute="trailing" id="dGj-xx-JHo"/>
+                            <constraint firstItem="IoR-9B-rMI" firstAttribute="height" secondItem="rTw-zL-LcE" secondAttribute="height" id="ddc-8L-VKz"/>
+                            <constraint firstItem="4FF-R9-5Hz" firstAttribute="top" secondItem="IoR-9B-rMI" secondAttribute="bottom" id="oAM-tn-d18"/>
+                            <constraint firstItem="IoR-9B-rMI" firstAttribute="width" secondItem="4FF-R9-5Hz" secondAttribute="width" id="uNc-Yd-crl"/>
+                            <constraint firstItem="IoR-9B-rMI" firstAttribute="leading" secondItem="rTw-zL-LcE" secondAttribute="trailing" id="y35-M9-7PX"/>
+                            <constraint firstItem="IoR-9B-rMI" firstAttribute="height" secondItem="4FF-R9-5Hz" secondAttribute="height" id="yA1-zt-EKX"/>
+                            <constraint firstItem="EfK-CC-qjM" firstAttribute="top" secondItem="rTw-zL-LcE" secondAttribute="bottom" id="yU4-jT-xya"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="4FF-R9-5Hz" secondAttribute="bottom" id="zlx-Om-ovb"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Woman Surrealists" id="7QP-Tx-CfK">
                         <barButtonItem key="backBarButtonItem" title="Surrealists" id="AEN-ik-3BT"/>
