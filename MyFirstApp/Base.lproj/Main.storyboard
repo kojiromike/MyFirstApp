@@ -24,6 +24,9 @@
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Xbz-KK-4rz" kind="show" id="rRd-69-Vh5"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4FF-R9-5Hz">
                                 <rect key="frame" x="300" y="332" width="300" height="268"/>
@@ -31,6 +34,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="Pto-VB-V0I" kind="show" id="qhM-5G-HNu"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rTw-zL-LcE">
                                 <rect key="frame" x="0.0" y="64" width="300" height="268"/>
@@ -50,6 +56,9 @@
                                     <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <segue destination="4gF-mg-OjL" kind="show" id="tJ6-zB-oCL"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -83,10 +92,10 @@
             </objects>
             <point key="canvasLocation" x="1070" y="542"/>
         </scene>
-        <!--View Controller-->
+        <!--Remedios Varo-->
         <scene sceneID="xrH-LB-3Ht">
             <objects>
-                <viewController id="d1J-5M-xaM" sceneMemberID="viewController">
+                <viewController title="Remedios Varo" id="d1J-5M-xaM" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="NQH-I8-kwj"/>
                         <viewControllerLayoutGuide type="bottom" id="Cet-Mg-HeL"/>
@@ -144,7 +153,7 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wHh-Xx-a2Y" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1767" y="542"/>
+            <point key="canvasLocation" x="1070" y="-158"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="LuT-jU-qJG">
@@ -162,11 +171,215 @@ Her mature paintings, fraught with arguably feminist meaning, are predominantly 
             </objects>
             <point key="canvasLocation" x="396" y="542"/>
         </scene>
+        <!--Kay Sage-->
+        <scene sceneID="MVo-ke-aBv">
+            <objects>
+                <viewController title="Kay Sage" id="Xbz-KK-4rz" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eEe-LF-kmR"/>
+                        <viewControllerLayoutGuide type="bottom" id="Bas-PF-PqI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="7EW-Ur-RMc">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KaySage2" translatesAutoresizingMaskIntoConstraints="NO" id="nVf-PI-r4K">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FiB-H3-5Qj">
+                                <rect key="frame" x="354" y="72" width="230" height="270"/>
+                                <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="KCb-v7-LT4"/>
+                                    <constraint firstAttribute="height" constant="270" id="v0U-8e-gDQ"/>
+                                </constraints>
+                                <mutableString key="text">(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
+
+Kay's home became Rapallo, Itally, but she spent much time exploring Europe, including Paris, with her mother. She was fluent in English, Italian, and French. She returned to the states at the beginning of World War I, attending schools in Virginia and Washington, D.C. After the war, her and her mother returned to Rome where she continued her studies.
+
+In 1933 Sage moved to Paris, to "become an artist," wherein she encountered the surrealist art movement. She embraced the new style and began painting in earnest. Art historian Whitney Chadwick said that Sage’s paintings were “imbued with an aura of purified form and a sense of motionlessness and impending doom found nowhere else in Surrealism.” There she met her future husband, and possibly her greatest influence, fellow surrealist Yves Tanguy.
+
+(1898-1963) Katherine Linn Sage was born in Albany, New York, to wealthy timber magnate and state senator, Henry Sage, and her mother Anne Sage. Anne soon left Henry and moved to Europe, taking Kay with her.
+
+Kay's home became Rapallo, Itally, but she spent much time exploring Europe, including Paris, with her mother. She was fluent in English, Italian, and French. She returned to the states at the beginning of World War I, attending schools in Virginia and Washington, D.C. After the war, her and her mother returned to Rome where she continued her studies.
+
+In 1933 Sage moved to Paris, to "become an artist," wherein she encountered the surrealist art movement. She embraced the new style and began painting in earnest. Art historian Whitney Chadwick said that Sage’s paintings were “imbued with an aura of purified form and a sense of motionlessness and impending doom found nowhere else in Surrealism.” There she met her future husband, and possibly her greatest influence, fellow surrealist Yves Tanguy.
+
+At the outbreak of World War II, Sage returned again to New York, where she used her wealth and influence to raise awareness of surrealism in the United States, and where she finally established herself as a successful, and widely praised, artist. Sage did the bulk of her mature work between 1940, when she married Tanguy, and 1955, when he died suddenly from a cerebral hemorrhage.
+
+[I Saw Three Cities, 1944]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="FiB-H3-5Qj" firstAttribute="trailing" secondItem="7EW-Ur-RMc" secondAttribute="trailingMargin" id="33k-Ra-ZZW"/>
+                            <constraint firstItem="nVf-PI-r4K" firstAttribute="leading" secondItem="7EW-Ur-RMc" secondAttribute="leading" id="5iP-Ds-9p5"/>
+                            <constraint firstItem="nVf-PI-r4K" firstAttribute="leading" secondItem="7EW-Ur-RMc" secondAttribute="leading" id="7L8-ww-Omr"/>
+                            <constraint firstAttribute="trailing" secondItem="nVf-PI-r4K" secondAttribute="trailing" id="Ap5-Ud-FSq"/>
+                            <constraint firstAttribute="trailing" secondItem="nVf-PI-r4K" secondAttribute="trailing" id="df0-H5-3f9"/>
+                            <constraint firstItem="FiB-H3-5Qj" firstAttribute="top" secondItem="eEe-LF-kmR" secondAttribute="bottom" constant="8" symbolic="YES" id="doH-IE-Fip"/>
+                            <constraint firstAttribute="bottom" secondItem="nVf-PI-r4K" secondAttribute="bottom" id="lMj-Lf-MIt"/>
+                            <constraint firstItem="nVf-PI-r4K" firstAttribute="top" secondItem="7EW-Ur-RMc" secondAttribute="top" id="qVt-Ii-43M"/>
+                            <constraint firstItem="Bas-PF-PqI" firstAttribute="top" secondItem="nVf-PI-r4K" secondAttribute="bottom" id="wt2-V9-aSU"/>
+                            <constraint firstItem="nVf-PI-r4K" firstAttribute="top" secondItem="7EW-Ur-RMc" secondAttribute="top" id="xre-Pz-hDj"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="5iP-Ds-9p5"/>
+                                <exclude reference="Ap5-Ud-FSq"/>
+                                <exclude reference="xre-Pz-hDj"/>
+                                <exclude reference="lMj-Lf-MIt"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wE9-ef-95q" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1767" y="225"/>
+        </scene>
+        <!--Frida Kahlo-->
+        <scene sceneID="6J7-gK-HXy">
+            <objects>
+                <viewController title="Frida Kahlo" id="Pto-VB-V0I" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aha-Ix-T6c"/>
+                        <viewControllerLayoutGuide type="bottom" id="Dxs-7E-eKv"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Lo6-aE-e2j">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="FridaKahlo2" translatesAutoresizingMaskIntoConstraints="NO" id="XxT-sT-AmS">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CVC-bB-QpF">
+                                <rect key="frame" x="354" y="72" width="230" height="270"/>
+                                <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="230" id="HHO-jb-APc"/>
+                                    <constraint firstAttribute="height" constant="270" id="U3g-eF-ezG"/>
+                                </constraints>
+                                <mutableString key="text">(1907-1954) Born Magdalena Carmen Frieda Kahlo y Caldrón, Frida Kahlo lived almost her entire life in the La Casa Azul (The Blue House), in what was then the outskirts of Mexico City. Her father, Guillermo Kahlo (born Carl Wilhelm Kahlo), was a German immigrant, and photographer by trade. Her mother, Matilde Calderón y Gonzalez, was of Amerindian (an indigenous South American people) and Spanish ancestry. Guillermo married Matilde after the death of his first wife, and they had four daughters, Frida being the third.
+
+Frida suffered physical misery and pain most of her life. She contracted polio at age six, leaving her with a withered leg, which she disguised with long colorful skirts. At eighteen, she was involved in a horrific trolly car accident that resulted in extensive damage to her spinal column, pelvis, and internal organs. Constant pain and the dozens of surgeries she endured were reoccurring themes in her artwork.
+
+Frida admired the famous Mexican painter, Diego Rivera, and exchanged correspondence with him for years before she finally met him. When she did, they developed an intimate relationship, and eventually married in 1929, over the objections of her parents. Their marriage was troubled and contentious. They often has separate living arrangements, and both engaged in numerous extra-marital affairs. They were divorced in 1939, but remarried again in 1940. Through her marriage to Diego, she was introduced to New York galleries, where she gained her own celebrity.
+
+Frida died at the age of 47. She was in constant pain her final years, often bed ridden for months at a time, complications of her injuries and subsequent treatments. Yet, she did not allow her condition to diminish her passion for art. She had a special easel built so she could paint in bed, and attended one of her openings by having four strong men carry her, on her bed, into the gallery.
+
+Kahlo embraced indigenous Mexican culture, often combining elements of religious tradition, dramatic symbolism, bright colors, and primitive style in her artwork. She was often the subject of her own art, and produced many self portraits during her career. Her early works was strongly influenced by Diego, but always incorporated her own symbolism and imagery.
+
+[The Suicide of Dorothy Hale, 1938]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="XxT-sT-AmS" firstAttribute="top" secondItem="Lo6-aE-e2j" secondAttribute="top" id="3ed-fd-dDY"/>
+                            <constraint firstItem="Dxs-7E-eKv" firstAttribute="top" secondItem="XxT-sT-AmS" secondAttribute="bottom" id="7JK-v5-XJ0"/>
+                            <constraint firstItem="CVC-bB-QpF" firstAttribute="trailing" secondItem="Lo6-aE-e2j" secondAttribute="trailingMargin" id="FTk-tG-RKu"/>
+                            <constraint firstItem="XxT-sT-AmS" firstAttribute="leading" secondItem="Lo6-aE-e2j" secondAttribute="leading" id="K23-kR-FTW"/>
+                            <constraint firstAttribute="bottom" secondItem="XxT-sT-AmS" secondAttribute="bottom" id="Oxt-tP-8MR"/>
+                            <constraint firstItem="XxT-sT-AmS" firstAttribute="top" secondItem="Lo6-aE-e2j" secondAttribute="top" id="RIm-DN-6I0"/>
+                            <constraint firstItem="CVC-bB-QpF" firstAttribute="top" secondItem="aha-Ix-T6c" secondAttribute="bottom" constant="8" symbolic="YES" id="cf5-rj-tAw"/>
+                            <constraint firstItem="XxT-sT-AmS" firstAttribute="leading" secondItem="Lo6-aE-e2j" secondAttribute="leading" id="dp3-c9-xxQ"/>
+                            <constraint firstAttribute="trailing" secondItem="XxT-sT-AmS" secondAttribute="trailing" id="tOW-tx-V1k"/>
+                            <constraint firstAttribute="trailing" secondItem="XxT-sT-AmS" secondAttribute="trailing" id="wjC-sX-8x9"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="K23-kR-FTW"/>
+                                <exclude reference="tOW-tx-V1k"/>
+                                <exclude reference="RIm-DN-6I0"/>
+                                <exclude reference="Oxt-tP-8MR"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4kS-TX-ZCU" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1767" y="902"/>
+        </scene>
+        <!--Leonora Carrington-->
+        <scene sceneID="QsC-SB-eOl">
+            <objects>
+                <viewController title="Leonora Carrington" id="4gF-mg-OjL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gXC-27-cHG"/>
+                        <viewControllerLayoutGuide type="bottom" id="bJd-Of-sqg"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ILP-x1-Ohh">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LeonoraCarrington2" translatesAutoresizingMaskIntoConstraints="NO" id="lYJ-Yi-u7J">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GbT-e6-ZhU">
+                                <rect key="frame" x="354" y="72" width="230" height="270"/>
+                                <color key="backgroundColor" white="0.5" alpha="0.33000000000000002" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="270" id="9WL-nm-8Wi"/>
+                                    <constraint firstAttribute="width" constant="230" id="bFW-0p-mXg"/>
+                                </constraints>
+                                <mutableString key="text">(1917-2011) Leonora Carrington was born in Clayton Green, Lancashire, England to a wealthy textile manufacturer. Her rebellious nature resulted in expulsion from two schools. Her early education was undertaken by governesses, tutors, and nuns. In her teens, her family sent her to Florence, Italy, where she attended Mrs. Penrose's Academy of Art. Returning to England, she studied at the Chelsea School of Art and later the Ozenfant Academy in London.
+
+Leonora saw her first surrealist painting at the age of ten and later met many Surrealists, including Paul Éluard. While her father discouraged her career in art, her mother, Maureeen Moorhead, encouraged it, giving her a copy of Herbert Read's book "Surrealism" (1936).
+
+Carrington was attracted to Max Ernst's work long before she met him in 1937. The two bonded in Paris, whereupon Ernst separated from his wife. The next year they moved to Saint Martin d'Archèche, in the south of France. They spent years there, collaborating on paintings, sculptures, and decorative arts.
+
+At the outbreak of World War II, Ernst was repeatedly arrested, but eventually escaped to America. Carrington was devastated, and fled to Spain where she had a nervous breakdown and was institutionalized. With the help of friends, she was smuggled to Lisbon, where she sought asylum at the Mexican Embassy. To obtain passage to Mexico, she agreed to a marriage of convince to the Mexican Ambasidor, Renato Leduc, a friend of Picasso. Except for a brief period in New York, she lived and worked in Mexico the rest of her life.
+
+Her first major exhibition was in 1957 in New York, where she became an instant celebrity, being the only professional, woman, English painter of note. She authored several books. Her artwork was often exhibited in conjunction with fellow surrealists Remedios Varo and Kati Horna.
+
+Leonora had a fascination for horses, which she incorporated in both her artwork and her writings. She also developed her own symbology, using an image of a candlestick, for example, to refer to her family. She was one of the last surviving surrealist artists, and set a Christie's auction record for the highest price ($713,000US) paid for work by a living surrealist painter.
+
+[Daravault, 1950]</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="bJd-Of-sqg" firstAttribute="top" secondItem="lYJ-Yi-u7J" secondAttribute="bottom" id="2UV-1f-H5I"/>
+                            <constraint firstItem="lYJ-Yi-u7J" firstAttribute="top" secondItem="ILP-x1-Ohh" secondAttribute="top" id="6ul-bM-h2d"/>
+                            <constraint firstItem="GbT-e6-ZhU" firstAttribute="trailing" secondItem="ILP-x1-Ohh" secondAttribute="trailingMargin" id="FPj-2C-8UM"/>
+                            <constraint firstItem="lYJ-Yi-u7J" firstAttribute="leading" secondItem="ILP-x1-Ohh" secondAttribute="leading" id="Rf1-Bj-h0H"/>
+                            <constraint firstAttribute="trailing" secondItem="lYJ-Yi-u7J" secondAttribute="trailing" id="Ybp-fP-2MC"/>
+                            <constraint firstItem="GbT-e6-ZhU" firstAttribute="top" secondItem="gXC-27-cHG" secondAttribute="bottom" constant="8" symbolic="YES" id="chH-Of-pkV"/>
+                            <constraint firstItem="lYJ-Yi-u7J" firstAttribute="top" secondItem="ILP-x1-Ohh" secondAttribute="top" id="kaH-rH-8bH"/>
+                            <constraint firstAttribute="bottom" secondItem="lYJ-Yi-u7J" secondAttribute="bottom" id="mSw-nh-I8i"/>
+                            <constraint firstItem="lYJ-Yi-u7J" firstAttribute="leading" secondItem="ILP-x1-Ohh" secondAttribute="leading" id="oDm-Ow-x4y"/>
+                            <constraint firstAttribute="trailing" secondItem="lYJ-Yi-u7J" secondAttribute="trailing" id="yT1-Iy-ICU"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Rf1-Bj-h0H"/>
+                                <exclude reference="yT1-Iy-ICU"/>
+                                <exclude reference="kaH-rH-8bH"/>
+                                <exclude reference="mSw-nh-I8i"/>
+                            </mask>
+                        </variation>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MVL-Gj-kLH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1070" y="1293"/>
+        </scene>
     </scenes>
     <resources>
         <image name="FridaKahlo1" width="160" height="256"/>
+        <image name="FridaKahlo2" width="1000" height="1187"/>
         <image name="KaySage1" width="160" height="256"/>
+        <image name="KaySage2" width="787" height="1024"/>
         <image name="LeonoraCarrington1" width="160" height="256"/>
+        <image name="LeonoraCarrington2" width="770" height="941"/>
         <image name="RemediosVaro1" width="160" height="256"/>
         <image name="RemediosVaro2" width="1152" height="1536"/>
     </resources>
